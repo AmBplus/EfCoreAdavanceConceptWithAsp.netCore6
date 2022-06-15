@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Product\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_Framework_RepositoriesContract\01_Framework_RepositoriesContract.csproj" />
+    <ProjectReference Include="..\Ef.Domain\Ef.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
